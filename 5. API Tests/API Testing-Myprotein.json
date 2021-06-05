@@ -1,0 +1,270 @@
+{
+	"id": "0a732e6f-be44-43ee-8295-f1e8945c2529",
+	"name": "Myprotein-APITesting",
+	"timestamp": "2021-03-30T17:53:37.283Z",
+	"collection_id": "b886659e-11d4-4634-b964-444dc844ca8f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 17,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2309d864-f95f-428d-af86-bd1523a928de",
+			"name": "Myprotein Homepage",
+			"url": "https://www.myprotein.ro/?countrySelected=Y",
+			"time": 164,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				164
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "e161dae0-2279-4f45-9ea2-7071079a71d8",
+			"name": "Create account",
+			"url": "https://www.myprotein.ro/accountCreate.account",
+			"time": 133,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true,
+				"Body is correct": true,
+				"Body matches string": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				133
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true,
+					"Body is correct": true,
+					"Body matches string": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "40f6a6d0-7ce6-41a1-9efb-a14ee22a0ab6",
+			"name": "Login",
+			"url": "https://www.myprotein.ro/elysiumAuthentication.login",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Response time is less than 800ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 800ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				74
+			],
+			"allTests": [
+				{
+					"Response time is less than 800ms": true,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e7e0f1f5-2f08-4c6a-be7b-b9bde486af15",
+			"name": "Search Vitamine",
+			"url": "https://www.myprotein.ro/elysium.search?search=vitamine",
+			"time": 200,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				200
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "0ac9fb9e-57bb-4255-831b-59ad99158aae",
+			"name": "Decrease quantity in the cart",
+			"url": "https://www.myprotein.ro/my.basket",
+			"time": 95,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				95
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "68c8bda5-27a5-4a15-bfbe-e41a5dfe7535",
+			"name": "Empty the cart",
+			"url": "https://www.myprotein.ro/my.basket?page=basket&section=checkout&counter=1&trash=10797927",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "200"
+			},
+			"tests": {
+				"Response time is less than 600ms": true,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				76
+			],
+			"allTests": [
+				{
+					"Response time is less than 600ms": true,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 742,
+	"collection": {
+		"requests": [
+			{
+				"id": "2309d864-f95f-428d-af86-bd1523a928de",
+				"method": "GET"
+			},
+			{
+				"id": "e161dae0-2279-4f45-9ea2-7071079a71d8",
+				"method": "POST"
+			},
+			{
+				"id": "40f6a6d0-7ce6-41a1-9efb-a14ee22a0ab6",
+				"method": "GET"
+			},
+			{
+				"id": "e7e0f1f5-2f08-4c6a-be7b-b9bde486af15",
+				"method": "GET"
+			},
+			{
+				"id": "0ac9fb9e-57bb-4255-831b-59ad99158aae",
+				"method": "GET"
+			},
+			{
+				"id": "68c8bda5-27a5-4a15-bfbe-e41a5dfe7535",
+				"method": "GET"
+			}
+		]
+	}
+}

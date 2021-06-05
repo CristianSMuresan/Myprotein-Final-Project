@@ -1,0 +1,23 @@
+{
+    "goodLogin":[
+        {
+            "username":"cristiamuresan@gmail.com",
+            "pass":"12345678"
+        }
+    ],
+    "badLogin":[
+        {
+            "username":"cristiamuresan@gmail.com",
+            "pass": "invalid pass"
+        },
+        {
+            "username":"cristian12@gmail.com",
+            "pass": "12345678"
+        },
+        {
+            "username":"cristiamuresan@gmail.com",
+            "pass": "12345670"
+        }
+    ]
+
+}
